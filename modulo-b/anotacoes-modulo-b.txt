@@ -1,0 +1,27 @@
+Aula 05
+
+*Variáveis
+" = " significa recebe
+-Estrutura: var ou let identificador = valor
+
+-Identificadores: podem começar com letra, $ ou _, não podem começar com números, podem ter acentos ou símbolos, sem espaços e não podem ser palavras reservadas como "var".
+
+"typeof" é utilizado para identificar o tipo primitivo ou DataType de uma variável
+Exemplo:
+> var n = 200                                       Tipos primitivos ou DataTypes:
+> typeof n                                          -number (infinity, NaN 'NotaNumber')
+'number'                                            -string (cadeia de caracteres)
+> n = "aaa"                                         -boolean (true ou false)
+'aaa'                                               -null  
+> typeof n                                          -undefined
+'string'                                            -object (array)
+> n = "123"                                         -function
+'123'
+> typeof n
+'string'
+ n = false
+false
+> typeof n
+'boolean'
+
+Aula 06
