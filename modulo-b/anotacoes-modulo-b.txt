@@ -25,3 +25,37 @@ false
 'boolean'
 
 Aula 06
+
+Tratamento de Dados
+ var nome = window.prompt ('')
+ fará com que a variável receba o valor resultante do comando descrito (window.prompt envia um "string")
+
+ - " + " tem função de concatenação (conectar) ou adição
+ (number + number) "+" terá a função de adição
+ (string + string) "+" terá a função de concatenação
+
+ -conversão string to number 
+ number.parseInt(n) (número inteiro)
+ number.parseFloat(n) (número real (com vírgula))
+ number (o js saberá automaticamente se é número real ou inteiro)
+
+ -conversão number to string
+ String(n)
+ n.toString()
+
+ -Formatação de Strings ou Template Strings
+ "${}" é placeholder
+
+ -É possível substituir concatenação: 'Seu nom é' + nome
+ por template strings: `Seu nome é ${nome}` (crease é obrigatória)
+
+ -Atributos
+ nome.length diz qunatos caracteres a string tem
+ nome.toUpperCase() transforma a string em letras maiúsculas
+ nome.toLowerCase() transforma a string em letras minúsculas
+
+-Formatação de number
+n1 = 10.5
+n1.toFixed(n) muda o número de casas decimais que serão mostradas
+.replace ('.', ',') fará com que a tela mostre o número com vírgula ao invés de um ponto
+n1.toLocaleString('pt-BR', {style:'currency', currency:'BRL'}) comando específico utilizado para demonstrar moedas locais, como por exemplo o real brasileiro.
