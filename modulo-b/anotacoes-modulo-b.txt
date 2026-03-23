@@ -59,3 +59,107 @@ n1 = 10.5
 n1.toFixed(n) muda o número de casas decimais que serão mostradas
 .replace ('.', ',') fará com que a tela mostre o número com vírgula ao invés de um ponto
 n1.toLocaleString('pt-BR', {style:'currency', currency:'BRL'}) comando específico utilizado para demonstrar moedas locais, como por exemplo o real brasileiro.
+
+
+*Operadores
+
+-Aritméticos
+5 + 2 = 7                   
+5 - 2 = 3                   
+5 * 2 = 10                   
+5 / 2 = 2.5  divisão real (com vírgula)                  
+5 % 2 = 1    resto da divisão inteira (sem vírgula) 
+5 ** 2 = 25  potência 5²
+
+-operandos são os que fazem os operadores funcionarem (valores 5 e 2)
+-operadores que precisam de 2 operandos são chamados de binários
+
+-Precedência de Operadores 
+ Seguindo as regras da matemática, alguns operadores devem ser resolvidos primeiro, independentemente da ordem em que aparecem
+ -Exemplo: 5 + 3 / 2 = 6.5 pois  3/2= 1.5   1.5+5 = 6.5
+ -Para dar prioridade a um operador, basta colocá-lo entre parêntesis ()
+
+ -Ordem de Precedência
+ 1 ()
+ 2 **
+ 3 * / %
+ 4 + - 
+
+
+-Atribuição
+
+-Atribuição Simples
+var a = 5 + 3  =  8
+var b = a % 5  =  3
+var c = 5 * b ** 2  = 45
+
+-Auto-atribuições
+var n = 3                   -Simplificação                  
+n = n + 4  = 7              n+= 4
+n = n - 5  = 2              n-= 5
+
+-Incremento (Simplificação específica para 1)
+x = x + 1    x++
+x = x - 1    x--
+
+
+
+-Relacionais
+  5 > 2 = true
+  7 < 4 = false
+  8 >= 8 = true
+  9 <= 7 = false
+  5 == 5 = true
+  4 != 4 = false
+
+" = " significa recebe
+" != " significa não igual
+" == " significa igual a
+O resultado de uma expressão com operadores relacionais será sempre um valor boolean (true ou false)
+
+-Operadores de Identidade (Relacionais)
+por padrâo o js não diferencia o tipo do valor, mas sim sua grandeza, para identificar 2 variáveis idênticas (mesmo valor e mesmo tipo), é necessário utilizar " === " (operador de igualdade restrita), para 
+5 == 5 = true
+5 == '5' = true 
+5 === '5' = false   pois number não é idêntico a string
+
+
+-Lógicos
+
+! (negação) operador unário, 1 operando
+!true = false
+!false = true
+
+&& (conjunção = e) operador binário, 1 operando em cada lado, sendo 2 no total
+true && true = true
+true && false = false
+false && true = false
+false && false = false
+
+|| (disjunção = ou) operador binário, 1 operando em cada lado, sendo 2 no total
+true || true = true
+true || false = true
+false || true = true 
+false || false = false
+
+Ordem de Precedência:
+Aritméticos:
+1 ()
+2 **
+3 * / %
+4 + - 
+Relacionais: (sem ordem de precedência, são resolvidos da esquerda para a direita)
+
+Lógicos: "!", "&&", "||"
+Ternário
+
+
+
+-Ternário
+composto por "?" e ":" em uma mesma expressão
+Estrutura: teste ? true : false
+Exemplo:
+ > var x = 8
+> var res = x % 2 == 0 ? 5 : 9
+> res
+5
