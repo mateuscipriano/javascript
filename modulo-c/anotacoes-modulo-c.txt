@@ -1,0 +1,31 @@
+*DOM
+(Document Object Model), é um conjunto de objetos dentro do navegador que dá acesso a componentes internos do website.
+
+-Árvore DOM 
+estrutura hierárquica do site, começa por "window"
+
+-Seleção de Elementos
+"InnerText" utiliza apenas o texto
+"InnerHTML" utiliza o texto com suas tags e formatações
+Seleção pode ser feita utilizando variáveis ou pelo comando escrito diretamente
+
+-Por Marca
+getElementsByTagName()[] Possibilita seleção de 1 ou mais objetos com a mesma tag
+
+-Por ID
+getElementsByID() seleciona um elemento pela sua id específica
+
+-Por Nome
+getElementsByName()
+
+-Por Classe
+getElementsByClassName()
+
+-Por Seletor
+querySelector()
+querySelecctorAll()
+utiiza a sintaxe do css
+id = "#"
+class = "."
+para selecionar um elemento chamado "div id=msg" se escreve querySelector('div#msg'\)
+
