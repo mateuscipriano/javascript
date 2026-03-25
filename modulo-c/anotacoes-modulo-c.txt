@@ -29,3 +29,22 @@ id = "#"
 class = "."
 para selecionar um elemento chamado "div id=msg" se escreve querySelector('div#msg'\)
 
+-Eventos DOM
+-Exemplos de Eventos Simples
+mouseenter- quando o mouse encosta em um determinado elemento
+mousemove- quando o mouse se move em cima de um determinado elemento
+mousedown- segurar o click em cima do elemento
+mouseup- quando solta o botão
+click- click normal no elemento
+mouseout- quando o mouse sai de cima do elemento
+
+-Funções
+função é um conjunto de código executado quando ocorre um determinado evento
+estrutura básica:
+function ação(parâmetro) {
+    bloco (código)
+}
+
+a ação pode ser inserida no HTML ou diretamentre no script
+HTML: nome da função na tag do elemento desejado.  <div id="area"> onclick="clicar()"
+Script:  variável.addEventListener('click', clicar)
