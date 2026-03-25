@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condição</title>
+</head>
+<body>
+    <h1>if else</h1>
+    valor: <input type="number" name="tv" id="tv">
+    <input type="button" value="Teste" onclick="permissao()">
+
+    <div id="res">
+
+    </div>
+
+
+    <script>
+
+    function permissao() {
+    var valor = document.getElementById('tv')
+    var res = document.getElementById('res')
+    var nv = Number(valor.value)
+        if (nv >= 60) {
+            res.innerHTML = 'pode nao'
+        }
+        else {
+            res.innerHTML = 'pode'
+        }
+    }
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

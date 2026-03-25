@@ -1,0 +1,17 @@
+*Sequências
+-if (condição) 2 possibilidades delimitadas por blocos, se for true executa o comando,
+-else se não for true, executa o comando alternativo
+
+-Condição Simples
+if(condição){
+    true
+}
+caso não seja true, nada de diferente acontece
+
+-Condição Composta
+if(condição) {
+    true
+}
+else {
+    false
+}
