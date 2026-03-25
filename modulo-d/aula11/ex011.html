@@ -1,1 +1,32 @@
-copia o ex009 soq em versao de site
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>condição</title>
+</head>
+<body>
+    <h1>if else</h1>
+    país: <input type="text" name="txtp" id="txtp">
+    <input type="button" value="Enviar" onclick="clicou()">
+    <div id="resp">
+
+    </div>
+
+
+<script>
+  
+function clicou() {
+    var país = document.getElementById('txtp')
+var resp = document.getElementById('resp')
+var p = país.value.trim().toLowerCase()
+    if ( p == 'brasil'){
+       resp.innerHTML = ' e br'
+    }
+    else {
+        resp.innerHTML = 'nao e br'
+    }
+}
+</script>
+</body>
+</html>

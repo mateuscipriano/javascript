@@ -47,10 +47,10 @@ Tratamento de Dados
  "${}" é placeholder
 
  -É possível substituir concatenação: 'Seu nom é' + nome
- por template strings: `Seu nome é ${nome}` (crease é obrigatória)
+ por template strings: `Seu nome é ${nome}` (crase é obrigatória)
 
  -Atributos
- nome.length diz qunatos caracteres a string tem
+ nome.length diz quantos caracteres a string tem
  nome.toUpperCase() transforma a string em letras maiúsculas
  nome.toLowerCase() transforma a string em letras minúsculas
 
