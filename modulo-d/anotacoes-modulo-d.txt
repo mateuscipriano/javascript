@@ -15,3 +15,30 @@ if(condição) {
 else {
     false
 }
+
+-Condição Aninhada
+uma condição dentro de outra
+if(cond1){
+    bloco1
+}
+  else if (cond2){
+    bloco2
+  } else {
+    bloco3
+  }
+
+-Condição Múltipla
+utilizada principalmente para valores fixos, um valor específico executa um bloco
+switch(expressão){
+case valor 1:
+
+break(obrigatório)
+case valor 2:
+
+break(obrigatório)
+case valor 3:
+
+default(caso nenhum valor acima seja satisfeito):
+
+break(obrigatório)
+}
