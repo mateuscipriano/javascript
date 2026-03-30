@@ -1,0 +1,15 @@
+*Repetições
+-Teste Lógico no Início
+-Repete a condição enquanto ela for verdadeira. Caso seja falsa, segue a execução normalmente.
+while(condição){
+
+}
+
+-Teste lógico no Final
+executa primeiro o bloco, depois o teste para validar a repetição
+do{
+
+}
+while(condição){
+    
+}
