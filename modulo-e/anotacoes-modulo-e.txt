@@ -1,15 +1,24 @@
 *Repetições
 -Teste Lógico no Início
 -Repete a condição enquanto ela for verdadeira. Caso seja falsa, segue a execução normalmente.
+
 while(condição){
 
 }
 
 -Teste lógico no Final
 executa primeiro o bloco, depois o teste para validar a repetição
+
 do{
 
 }
 while(condição){
     
+}
+
+-Repetição com variável de controle
+caso verdadeiro, executa o bloco, faz uma repetição e um incremento, e se reete novamente até que seja falso.
+
+for(início;teste;incremento){
+
 }
