@@ -17,7 +17,7 @@ while(condição){
 }
 
 -Repetição com variável de controle
-caso verdadeiro, executa o bloco, faz uma repetição e um incremento, e se reete novamente até que seja falso.
+caso verdadeiro, executa o bloco, faz uma repetição e um incremento, e se repete novamente até que seja falso.
 
 for(início;teste;incremento){
 
