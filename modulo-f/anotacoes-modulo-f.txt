@@ -1,0 +1,5 @@
+*Variáveis compostas
+-são capazes de armazenar vários valores em uma mesma variável
+var a = [ ,  , ]
+a = array (vetor)
+"[]" = elemento, composto pelo valor e índice (chave)
