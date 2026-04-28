@@ -1,0 +1,11 @@
+*Escopo de Variáveis
+
+"var" tem o escopo restrito a função em que está
+"hoisting" específico do "var": interpreta todos os "var" como uma declaração no início do documento
+
+
+
+
+"let" tem o escopo restrito ao bloco em que está
+
+"const" não permite que o valor da variável seja alterado
