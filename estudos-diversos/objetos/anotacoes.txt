@@ -1,0 +1,19 @@
+*Pilares Básicos POO
+-Herança
+Um objeto idealizado baseado em outro objeto.
+
+Objeto pai estende atributos (propriedades) e métodos (funções) para o objeto filho; Objeto pai também pode ter sido estendido de outro objeto
+
+
+-Polimorfismo
+Capacidade de objetos compatíveis entre si de passar-se por outro em determinada circunstância
+
+Uma ou mais características de um objeto herdado devem ser reescritas por completo.
+reescrita de um método herdado de uma classe sem utilizar comportamentos da classe pai para esse método.
+
+-Encapsulamento
+Capacidade de esconder detalhes da implementação do objeto, expondo só o que deve ser acessado publicamente, oonde somente determinadas funções podem alterar atributos privados
+
+
+-Abstração
+representar um objeto herdado por outras classes de maneira abstrata, a classe pode ter atributos e métodos, porém a implementação deve ser feita nas classes filhas. chamada de superclasse
